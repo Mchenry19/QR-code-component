@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.desktop-div{
+    max-width: 100%;
+    height: 80rem;
+    background-color: hsl(220, 15%, 55%);
+    padding-top: 5rem;
+}
+
+.main-card{
+    width: 30%;
+    background-color: hsl(0, 0%, 100%);
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.card-image-container{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.card-image{
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.bottom-card{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.card-title-container{
+    width: fit-content;
+    height: auto;
+}
+
+.card-title-container h1{
+    width: fit-content;
+    height: auto;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.card-description-conatainer{
+    width: fit-content;
+    height: auto;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+.card-description-conatainer p{
+    width: fit-content;
+    height: auto;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    font-size: 0.93rem;
+
+}
+
+.attribution{
+    width: fit-content;
+    height: auto;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution a{
+    color:  hsl(220, 15%, 55%);
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    
+.desktop-div{
+    max-width: 100%;
+    padding: 0 1rem 0 1rem;
+    height: 80rem;
+    background-color: hsl(220, 15%, 55%);
+    padding-top: 5rem;
+}
+
+
+.main-card{
+    width: 100%;
+    background-color: hsl(0, 0%, 100%);
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+
+
+.card-image-container{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+}
+
+/*@media screen and (max-width: 1080px){
+    
+.main-card{
+    width: 60%;
+    background-color: hsl(0, 0%, 100%);
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+}
